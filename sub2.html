@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>sub2</title>
+	</head>
+	<meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+    <style>
+    	body {
+             margin: 0;
+             font-family: 'Noto Sans KR', sans-serif;
+             
+           }
+
+           *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+           #logo {
+             padding: 10px 20px;
+             position: absolute;
+             top: 0;
+             
+
+           }
+
+           .nvg{
+      text-align: center;
+
+    }
+
+    .box1 {
+          width: 100%;
+          height: 88px;
+          background-color: #BEDF98;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: block;
+        }
+
+        .box1_top{
+          width: 1080px;
+          margin-right: auto;
+          margin-left: auto;
+         
+        }
+
+        .nvg a{
+          color: #697A55;
+          font-size: 16px;
+          text-decoration: none;
+          margin-right: 20px;
+          margin-left: 20px;
+          margin-top: 30px;
+          float: right;
+        }
+
+        .nvg .perfumes{
+          color: black;
+          
+        }
+        
+        .nvg a:hover{
+          color: black;
+          border-bottom: 2px solid black;
+        }
+
+        .pagetitle{
+          font-size: 24px;
+          text-align: center;
+          margin-top: 80px;
+          margin-bottom: 32px;
+          font-weight: bold;
+
+        }
+
+        .line{
+
+          margin-top: 24px;
+          margin-bottom: 40px;
+          height: 1px;
+          width: 1080px;
+          background-color: #8a8a8a;
+          margin-right: auto;
+          margin-left: auto;
+        }
+
+        .box2{
+          width: 1040px;
+          margin-right: auto;
+          margin-left: auto;
+         
+        }
+
+        .new1{
+          font-size: 24px;
+          font-weight: lighter;
+          margin-top: 120px;
+          margin-bottom: 8px;
+          color: white;
+        }
+
+
+
+        .box2_img{
+          display: inline-flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          text-align: center;
+        }
+
+
+        .card1{
+          width: 280px;
+           height: 280px;
+           background-image: url(https://i.pinimg.com/564x/6a/af/f6/6aaff625f1b9a674808c991c21a3ea85.jpg);
+           background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 20px;
+           display: block;
+           text-decoration: none;
+           position: relative;
+           margin-bottom: 40px;
+        }
+
+        .card1:hover{
+          opacity: 0.7;
+        }
+        .card2:hover{
+          opacity: 0.7;
+        }
+        .card3:hover{
+          opacity: 0.7;
+        }
+        .card4:hover{
+          opacity: 0.7;
+        }
+        .card5:hover{
+          opacity: 0.7;
+        }
+        .card6:hover{
+          opacity: 0.7;
+        }
+
+
+        .card2{
+          width: 280px;
+           height: 280px;
+           background-image: url(https://i.pinimg.com/564x/56/39/bb/5639bb9cdbf4dda1414f27630cfd58d8.jpg);
+           background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 20px;
+           display: block;
+           text-decoration: none;
+           position: relative;
+           margin-bottom: 40px;
+        }
+
+        .card3{
+          width: 280px;
+           height: 280px;
+           background-image: url(https://i.pinimg.com/564x/d0/51/f8/d051f8bfe84697dce09a4d21a164da74.jpg);
+           background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 20px;
+           display: block;
+           text-decoration: none;
+           position: relative;
+           margin-bottom: 40px;
+        }
+
+        .card4{
+          width: 280px;
+           height: 280px;
+           background-image: url(https://i.pinimg.com/564x/e1/3c/f6/e13cf6b0040708d06bd0e121388a6f6a.jpg);
+           background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 20px;
+           display: block;
+           text-decoration: none;
+           position: relative;
+           margin-bottom: 40px;
+        }
+
+        .card5{
+          width: 280px;
+           height: 280px;
+           background-image: url(https://i.pinimg.com/564x/0d/21/25/0d212588144ab659aa8fae3c5f6f25f5.jpg);
+           background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 20px;
+           display: block;
+           text-decoration: none;
+           position: relative;
+           margin-bottom: 40px;
+        }
+
+        .card6{
+          width: 280px;
+           height: 280px;
+           background-image: url(https://i.pinimg.com/564x/9b/df/2c/9bdf2cd2c9fa29fc0a9a82467d320af5.jpg);
+           background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 20px;
+           display: block;
+           text-decoration: none;
+           position: relative;
+           margin-bottom: 40px;
+        }
+
+        .more{
+          text-align: center;
+          margin-top: 40px;
+          margin-bottom: 80px;
+        }
+
+        .more a{
+          text-decoration: none;
+          color: #4C810F;
+            font-size: 12px;
+            padding: 12px 96px;
+            border: solid 2px #4C810F;
+            border-radius: 2px;
+
+
+         }
+
+         .more a:hover{
+          color: white;
+          background-color: #4C810F;
+        }
+
+
+
+
+
+       
+
+
+           
+
+
+
+        
+
+        .footer{
+          padding: 36px 0;
+          background-color: #F3F3F3;
+
+        }
+
+
+        .footertext{
+          width:800px;
+          display: block;
+          margin-right: auto;
+          margin-left: auto;
+        }
+
+         .bottom_logo{
+          width: 160px;
+          display: block;
+      margin-right: auto;
+      margin-left: auto;
+        }
+
+        .dsa{
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 20px;
+     }
+
+     .dsa1{
+      margin-right: 52px;
+     }
+
+        
+        .dsa a{
+          color: #515151;
+          font-size: 12px;
+          text-decoration: none;
+          
+
+          
+        }
+
+        .corp{
+          color: #AAAAAA;
+          font-size: 12px;
+            
+            text-align: center;
+
+        }
+
+
+
+  
+
+    
+
+       
+
+    </style>
+
+
+	<body>
+	  <div class="box1">
+      <div class="box1_top">
+        <div id="logo">
+         <a href="index.html"><img class="timg" src="https://i.postimg.cc/PxSn6S7y/Fragrantica-Elegy-and-Pentimento-Scottish-Perfume.png" width="240px"></a>
+        </div>
+        <div class="nvg">
+         <a href="#">ABOUT</a>
+         <a href="#">PERFUMERS</a>
+         <a class="perfumes" href="sub2.html">NOTES</a>
+         <a href="sub1.html">PERFUMES</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="box0"> 
+      <p class="pagetitle">NOTES</p> 
+      <div class="line"></div>
+      </div>
+
+     <div class="box2">
+        <div class="box2_img">
+          <div class="card1">
+         <p class="new1">CITRUS SMELLS</p>
+         <p class="new2"></p>
+        </div>
+        
+        <div class="card2">
+         <p class="new1">WHITE FLOWERS</p>
+         <p class="new2"></p>
+        </div>
+        <div class="card3">
+         <p class="new1">GREENS</p>
+         <p class="new2"></p>
+        </div>
+        <div class="card4">
+         <p class="new1">SPICES</p>
+         <p class="new2"></p>
+        </div>
+        <div class="card5">
+         <p class="new1">WOODS</p>
+         <p class="new2"></p>
+        </div>
+        <div class="card6">
+         <p class="new1">SWEETS</p>
+         <p class="new2"></p>
+        </div>
+        </div>
+
+        <div class="more ">
+        <a href=#>MORE</a>
+        </div>
+        
+      </div> 
+
+
+
+
+
+
+
+  <div class="footer">
+    <div class="footertext">
+      
+      <div class="bottom_logo">
+        <img src="https://i.postimg.cc/PxSn6S7y/Fragrantica-Elegy-and-Pentimento-Scottish-Perfume.png" width="100%">
+      </div>
+
+
+      <div class="dsa">
+        <a class="dsa1" href="#">SITEMAP</a>
+        <a class="dsa1" href="#">CONTACT US</a>
+        <a href="#">INSTAGRAM</a>
+      </div> 
+
+       <p class="corp">Copyrights © 2006-2022 Fragrantica.com perfumes magazine - All Rights Reserved - do not copy anything without prior written permission. Please read the Terms of Service and Privacy policy Fragrantica® Inc, United States</p>
+
+    
+    </div>
+
+  </div>
+
+    
+	</body>
+</html>
